@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{6FB36FF8-6816-4592-A0B8-62BDE4749052}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1D07F133-147F-4C53-97FA-F36301DA7255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4C02ECDB-CC87-4592-9BF0-16369165CAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroAI.Infrastructure", "ZeroAI.Infrastructure\ZeroAI.Infrastructure.csproj", "{D31B6442-CEAE-4753-85B6-0A80437DA8C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DOC", "DOC", "{76AD8B06-F0C3-4BF9-A5B5-08CB98A91025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D31B6442-CEAE-4753-85B6-0A80437DA8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31B6442-CEAE-4753-85B6-0A80437DA8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31B6442-CEAE-4753-85B6-0A80437DA8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31B6442-CEAE-4753-85B6-0A80437DA8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D31B6442-CEAE-4753-85B6-0A80437DA8C7} = {4C02ECDB-CC87-4592-9BF0-16369165CAEB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFD0532-72BA-438B-8B3E-DD88542D740D}
+	EndGlobalSection
+EndGlobal
